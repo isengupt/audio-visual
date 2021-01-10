@@ -7,7 +7,30 @@ import Fall from "./Fall";
 
 export default function App() {
   return (
-    <div className="main__container">
+
+    <>
+      <div className="frame">
+        <h1 className="frame__title">AUDIO VISUALIZATION</h1>
+        <div className="frame__links"></div>
+        <div className="frame__nav">
+          <a
+            className="frame__link"
+            href="https://isengupt.github.io/fiber-website/"
+          >
+            Previous
+          </a>
+          <a className="frame__link" href="#">
+            Resume
+          </a>
+          <a
+            className="frame__link"
+            href="https://github.com/isengupt/audio-visual/"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
+      <div className="main__container">
       <div className="layout__container">
         <div className="player__container border__right ">
           <div className="player__title__container">
@@ -83,5 +106,7 @@ export default function App() {
         </div>
       </div>
     </div>
+    </>
+   
   );
 }

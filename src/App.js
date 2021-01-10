@@ -15,7 +15,7 @@ export default function App() {
         <div className="frame__nav">
           <a
             className="frame__link"
-            href="https://isengupt.github.io/fiber-website/"
+            href="https://isengupt.github.io/glass-layer/"
           >
             Previous
           </a>
